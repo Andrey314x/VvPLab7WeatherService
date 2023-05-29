@@ -1,2 +1,7 @@
 ﻿  JsonService.cpp
+  Weather.cpp
+  WeatherService.cpp
+  XMLService.cpp
+  pugixml.cpp
+  Создание кода...
   WeatherService.vcxproj -> D:\Users\class\Desktop\WeatherService\Debug\WeatherService.exe

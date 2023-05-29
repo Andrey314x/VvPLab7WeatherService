@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>D:\Users\class\Desktop\WeatherService\WeatherService\pugixml-1.13;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,15 +141,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="JsonService.cpp" />
+    <ClCompile Include="pugixml-1.13\pugixml-1.13\src\pugixml.cpp" />
     <ClCompile Include="Service.cpp" />
     <ClCompile Include="Weather.cpp" />
     <ClCompile Include="WeatherService.cpp" />
+    <ClCompile Include="XMLService.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E:\Введение в профессию\Лаба 3\Полезные файлы\json-develop\json-develop\single_include\nlohmann\json.hpp" />
     <ClInclude Include="JsonService.h" />
+    <ClInclude Include="pugixml-1.13\pugixml-1.13\src\pugiconfig.hpp" />
+    <ClInclude Include="pugixml-1.13\pugixml-1.13\src\pugixml.hpp" />
     <ClInclude Include="Service.h" />
     <ClInclude Include="Weather.h" />
+    <ClInclude Include="XMLService.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

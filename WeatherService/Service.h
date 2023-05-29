@@ -3,10 +3,9 @@
 
 class Service
 {
-
+public:
 	virtual Weather getWeather(std::string s) = 0;
 
-public:
-	virtual ~Service();
+	//virtual ~Service();
 };
 
